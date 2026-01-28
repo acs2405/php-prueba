@@ -14,14 +14,13 @@ jobs:
       - name: Requirements
         shell: bash
         run: sudo apt update
-          && sudo apt install -y graphviz doxygen #imagemagick
+          && sudo apt install -y graphviz doxygen
 
       - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Build docs
-        run: cd docs
-             doxygen Doxyfile
+        run: cd docs && doxygen Doxyfile
 
       - name: Create folder
         run: touch docs/html/.nojekyll
