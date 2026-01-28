@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  cmake:
-    name: Prepares the make files
+  docs:
+    name: Generates de docs
     runs-on: ubuntu-24.04
     steps:
       - name: Requirements
@@ -24,11 +24,6 @@ jobs:
 
       - name: Create folder
         run: touch docs/html/.nojekyll
-
-#      - name: Build docs
-#        run: cd build
-#          && make doxygen
-#          && touch docs/doxygen/html/.nojekyll
 
       - name: Deploy docs
         uses: JamesIves/github-pages-deploy-action@v4
