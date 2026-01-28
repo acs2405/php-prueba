@@ -1,2 +1,1 @@
 warning: Specified markdown mainpage '../README.md' has not been defined as input file
-/home/adri/repos/php-prueba/docs/html/graph_legend.dot:1: error: Problems running dot: exit code=127, command='dot', arguments='"/home/adri/repos/php-prueba/docs/html/graph_legend.dot" -Tpng -o "/home/adri/repos/php-prueba/docs/html/graph_legend.png"'
