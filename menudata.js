@@ -25,4 +25,8 @@
 var menudata={children:[
 {text:"Página principal",url:"index.html"},
 {text:"Archivos",url:"files.html",children:[
-{text:"Lista de archivos",url:"files.html"}]}]}
+{text:"Lista de archivos",url:"files.html"},
+{text:"Miembros de los archivos",url:"globals.html",children:[
+{text:"Todos",url:"globals.html"},
+{text:"Funciones",url:"globals_func.html"},
+{text:"Variables",url:"globals_vars.html"}]}]}]}
